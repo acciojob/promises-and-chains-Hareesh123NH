@@ -9,7 +9,7 @@ function handle(e) {
 	// console.log(age,name);
 
 	if(!name || isNaN(age)){
-		alert("Please fill both fields!");
+		alert("Please enter valid details");
 		return ;
 	}
 	checkAge(age,name)
